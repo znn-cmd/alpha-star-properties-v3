@@ -1,0 +1,127 @@
+{
+  "navigation": {
+    "buy": "Buy",
+    "rent": "Rent",
+    "investments": "Investments",
+    "about": "About Us",
+    "contacts": "Contacts",
+    "blog": "Blog",
+    "leaveRequest": "Leave Request"
+  },
+  "hero": {
+    "title": "Elite Real Estate Agency in Dubai",
+    "subtitle": "The only agency that will help you with your choice",
+    "search": {
+      "district": "District",
+      "propertyType": "Property Type",
+      "rooms": "Number of rooms",
+      "price": "Price",
+      "find": "Find"
+    }
+  },
+  "sections": {
+    "bestOffers": {
+      "title": "Best offers for summer 2024",
+      "showAll": "Show all",
+      "details": "Details"
+    },
+    "exclusiveOffers": {
+      "title": "Exclusive offers from Alpha Star for premium real estate in Dubai",
+      "all": "All",
+      "apartments": "Apartments",
+      "villas": "Villas",
+      "penthouses": "Penthouses",
+      "townhouses": "Townhouses",
+      "showAll": "Show all"
+    },
+    "contactForm": {
+      "title": "Leave your contacts and an Alpha Star Properties broker will help you with your choice",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "privacy": "I agree to the processing of personal data",
+      "send": "Send"
+    },
+    "benefits": {
+      "title": "Starting work with our real estate agency you will get",
+      "exclusiveAccess": "Access to exclusive offers",
+      "legalSupport": "Full legal support",
+      "individualApproach": "Individual approach to each client",
+      "residencePermit": "Assistance in obtaining a residence permit"
+    },
+    "about": {
+      "title": "Alpha Star Properties - a leading luxury real estate agency in the UAE",
+      "satisfiedClients": "satisfied clients",
+      "propertiesForSale": "properties for sale",
+      "dealsPerYear": "deals per year",
+      "soldRealEstate": "m2 of sold real estate",
+      "partners": "Our partners"
+    },
+    "experts": {
+      "title": "Our experts will accompany you at all stages: from the first consultation to the completion of the transaction",
+      "showAll": "Show all"
+    },
+    "districts": {
+      "title": "Choose a district in Dubai for your lifestyle",
+      "showAll": "Show all"
+    },
+    "lifestyle": {
+      "title": "Wide selection of options for any lifestyle",
+      "showAll": "Show all"
+    },
+    "testimonials": {
+      "title": "Real estate professionals you can trust",
+      "showAll": "Show all"
+    },
+    "faq": {
+      "title": "Popular questions and answers about real estate in Dubai",
+      "showAll": "Show all"
+    },
+    "office": {
+      "title": "We will be glad to see you in our office"
+    },
+    "consultation": {
+      "title": "Any questions? Get a free consultation from a specialist"
+    },
+    "blog": {
+      "title": "Start your journey into the world of real estate with our journal",
+      "showAll": "Show all"
+    }
+  },
+  "property": {
+    "area": "Area",
+    "price": "Price",
+    "bedrooms": "bedrooms",
+    "bathrooms": "bathrooms",
+    "sqft": "sq.ft",
+    "features": "Features and characteristics",
+    "description": "Description",
+    "additionalInfo": "Additional information",
+    "location": "Location",
+    "propertyType": "Property type",
+    "status": "Property status",
+    "propertyId": "Property ID",
+    "referenceNo": "Reference No",
+    "propertySize": "Property Size",
+    "furnishing": "Furnishing",
+    "parkingSpaces": "Parking spaces",
+    "bookViewing": "Book a viewing",
+    "personalBroker": "personal broker",
+    "write": "Write",
+    "call": "Call",
+    "similarProperties": "Similar properties",
+    "nearbyAreas": "Nearby areas",
+    "showMore": "Show more"
+  },
+  "footer": {
+    "newsletter": "Subscribe to our newsletter",
+    "subscribe": "Subscribe",
+    "propertyOffers": "Property offers",
+    "aboutUs": "About us",
+    "followUs": "Follow us",
+    "copyright": "© Copyright 2024. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use"
+  }
+}
+
