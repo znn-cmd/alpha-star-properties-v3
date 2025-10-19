@@ -1,9 +1,13 @@
+import React from 'react';
 import {useTranslations} from 'next-intl';
+import {setRequestLocale} from 'next-intl/server';
 import Link from 'next/link';
 import {Search, Star, Shield, Users, Award, Play, ChevronRight} from 'lucide-react';
 import Image from 'next/image';
 
-export default function HomePage() {
+export default function HomePage({params}: {params: Promise<{locale: string}>}) {
+  const locale = React.use(params).locale;
+  setRequestLocale(locale);
   const t = useTranslations();
 
   const bestOffers = [
