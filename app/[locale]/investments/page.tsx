@@ -1,12 +1,14 @@
-import React from 'react';
 import {useTranslations} from 'next-intl';
 import {setRequestLocale} from 'next-intl/server';
 import {TrendingUp, DollarSign, MapPin, Calendar, Star, Target, Shield, Users} from 'lucide-react';
 import Image from 'next/image';
 
-export default function InvestmentsPage({params}: {params: Promise<{locale: string}>}) {
-  const locale = React.use(params).locale;
-  setRequestLocale(locale);
+type PageProps = {
+  params: {locale: string};
+};
+
+export default function InvestmentsPage({params}: PageProps) {
+  setRequestLocale(params.locale);
   const t = useTranslations();
 
   const investmentTypes = [

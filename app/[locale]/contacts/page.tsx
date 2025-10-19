@@ -1,12 +1,14 @@
-import React from 'react';
 import {useTranslations} from 'next-intl';
 import {setRequestLocale} from 'next-intl/server';
 import Link from 'next/link';
 import {Phone, Mail, MapPin, Clock, MessageCircle} from 'lucide-react';
 
-export default function ContactPage({params}: {params: Promise<{locale: string}>}) {
-  const locale = React.use(params).locale;
-  setRequestLocale(locale);
+type PageProps = {
+  params: {locale: string};
+};
+
+export default function ContactPage({params}: PageProps) {
+  setRequestLocale(params.locale);
   const t = useTranslations();
 
   const contactInfo = [

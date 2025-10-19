@@ -1,13 +1,15 @@
-import React from 'react';
 import {useTranslations} from 'next-intl';
 import {setRequestLocale} from 'next-intl/server';
 import Link from 'next/link';
 import {Search, Filter, MapPin, Bed, Bath, Square, ChevronRight} from 'lucide-react';
 import Image from 'next/image';
 
-export default function CategoriesPage({params}: {params: Promise<{locale: string}>}) {
-  const locale = React.use(params).locale;
-  setRequestLocale(locale);
+type PageProps = {
+  params: {locale: string};
+};
+
+export default function CategoriesPage({params}: PageProps) {
+  setRequestLocale(params.locale);
   const t = useTranslations();
 
   const categories = [
